@@ -1,0 +1,5 @@
+try:
+    name = input("Enter your name: ")
+    print("You entered: " + name)
+except KeyboardInterrupt:
+    print("You hit control-c")

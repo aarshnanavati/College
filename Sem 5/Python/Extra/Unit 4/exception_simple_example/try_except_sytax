@@ -1,0 +1,14 @@
+try:
+	code - exception generate
+except (ValueError,ArithmaticError):
+	exception handle
+except ValueError:
+	code
+except ArithmaticError:
+	code
+except:
+	print(e)
+else:
+	code
+finally:
+	code execute

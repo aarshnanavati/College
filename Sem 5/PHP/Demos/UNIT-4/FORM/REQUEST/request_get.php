@@ -1,0 +1,29 @@
+<html>
+
+<head>
+
+<title>Registration Form</title>
+
+
+</head>
+
+<body>
+
+<h2>Registration Form</h2>
+
+<form action="Registration_request.php" method="GET" > 
+First name:
+
+<input type="text" name="firstname"><br> Last name: 
+
+<input type="text" name="lastname"> <br> 
+
+
+
+<input type="submit" value="Submit"> 
+
+</form> 
+
+</body> 
+
+</html>

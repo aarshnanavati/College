@@ -1,0 +1,15 @@
+<?php
+// PHP program to display the working of str_split()
+ 
+$string = "Geeks";
+ 
+// Since second argument is not passed,
+// string is split into substrings of size 1.
+print_r(str_split($string));
+ 
+$string = "GeeksforGeeks";
+ 
+// Splits string into substrings of size 4
+// and returns array of substrings.
+print_r(str_split($string, 4))
+?>

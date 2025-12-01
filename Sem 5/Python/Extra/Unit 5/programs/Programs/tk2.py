@@ -1,0 +1,11 @@
+#import the 'tkinter' module
+import tkinter
+import tkinter as tkinter
+#create a new window
+window = tkinter.Tk()
+#set the window title
+window.title("My Python Tkinter window")
+#set the window size
+window.geometry("300x300")
+#draw the window, and start the 'application'
+window.mainloop()

@@ -1,0 +1,10 @@
+n = 0
+res = 10/0
+print(res)
+
+# Syntax Error (Error)
+print("Hello world" ) # Missing closing parenthesis
+
+# ZeroDivisionError (Exception)
+n = 10
+res = n / 0
